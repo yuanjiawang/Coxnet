@@ -1,0 +1,16 @@
+Package: Coxnet
+Type: Package
+Title: Regularized Cox Model
+Version: 0.2
+Date: 2015-12-09
+Author: Xiang Li, Donglin Zeng and Yuanjia Wang
+Maintainer: Xiang Li <xl2473@columbia.edu>
+Description: Cox model regularized with net (L1 and Laplacian), elastic-net (L1 and L2) or lasso (L1) penalty, and their adaptive forms, such as adaptive lasso and net adjusting for signs of linked coefficients. Moreover, it treats the number of non-zero coefficients as another tuning parameter and simultaneously selects with the regularization parameter \code{lambda}. In addition, it fits a varying coefficient Cox model by kernel smoothing, incorporated with the aforementioned penalties. The package uses one-step coordinate descent algorithm and runs extremely fast by taking into account the sparsity structure of coefficients.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, RcppEigen
+Depends: Matrix (>= 1.1-5)
+Packaged: 2015-12-09 22:25:55 UTC; xl2473
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-12-10 00:04:05

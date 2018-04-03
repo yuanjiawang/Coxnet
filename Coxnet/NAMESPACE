@@ -1,0 +1,6 @@
+useDynLib(Coxnet)
+import(Matrix)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "sd", "weighted.mean") 
+export(Coxnet, loCoxnet, print.Coxnet, coxsplit, coxsplity, coxsplitw)
+S3method(print, Coxnet)
